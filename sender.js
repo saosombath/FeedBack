@@ -45,3 +45,12 @@ const scrollRevealOption = {
     ...scrollRevealOption,
     delay: 500,
   });
+  ScrollReveal().reveal(".btn", {
+    ...scrollRevealOption,
+    delay: 700,
+  });
+  $(document).ready(function(){
+    $("#btn").click(function(){
+      alert("សូមអរគុណ! សូមសំណាងល្អ!🙏");
+    });
+  });
