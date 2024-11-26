@@ -4,10 +4,12 @@
 }
 ::-webkit-input-placeholder {
   color: rgb(255, 255, 255);
+  font-family: Kh Siemreap;
 }
 
 :-ms-input-placeholder {
   color: rgb(255, 255, 255);
+  font-family: Kh Siemreap;
 }
 
 ::-ms-input-placeholder {
@@ -16,15 +18,17 @@
 
 ::placeholder {
   color: rgb(255, 255, 255);
+  font-family: Kh Siemreap;
 }
 
 .form {
   position: fixed;
+  z-index: 99;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
-  background: linear-gradient(70deg, #509499, skyblue);
+  /* background: linear-gradient(70deg, #509499, skyblue); */
 }
 
 .form form {
@@ -49,9 +53,10 @@
 
 .form form #name, .form form #email, .form form #message {
   width: 90%;
-  background: transparent;
+  background: rgba(128, 128, 128, 0.555);
   border: none;
   padding: 10px;
+  font-family: Kh Siemreap;
   border-radius: 10px;
   border: 2px solid rgb(255, 221, 25);
   -webkit-transition: 600ms;
@@ -65,10 +70,10 @@
 
 .form form #btn {
   position: relative;
-  font-family: Kh Siemreap;
+  font-family: Roboto;
   border: none;
-  background: transparent;
-  color: white;
+  background: rgba(255, 255, 255, 0.363);
+  color: rgb(26, 0, 139);
   font-weight: bold;
   padding: 10px 45px;
   border-radius: 5px;
@@ -91,6 +96,29 @@ img{
 .form{
   width: 100%;
 }
+.video img{
+  position: absolute;
+  opacity: 100%;
+  width: 100%;
+  left: -0.1rem;
+  top: -2rem;
+  background-position: center;
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+  z-index: -99;
+}
 .footer{
+  position: relative;
+  text-align: center;
   color: white;
+}
+.contant{
+  text-decoration: underline;
+}
+.icon{
+  z-index: 1200;
+  top: 13.5rem;
+  color: white;
+  position: relative;
+  left: -33rem;
 }
