@@ -54,6 +54,7 @@ const scrollRevealOption = {
       alert("សូមអរគុណ! សូមសំណាងល្អ!🙏");
     });
   });
-$(document).ready(function){
+
+$(".overdue").each( function() {
     alert("សូមបញ្ជេញមតិនិងការស្នើរសុំប្រកបដោយសិលធមន៍់់់់");
-}
+});
