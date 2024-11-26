@@ -92,5 +92,7 @@ img{
   width: 100%;
 }
 .text-white{
-  color: white
+  position: relative;
+  color: white;
+  top:4rem;
 }
