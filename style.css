@@ -48,7 +48,7 @@
 }
 
 .form form #name, .form form #email, .form form #message {
-  width: 50%;
+  width: 90%;
   background: transparent;
   border: none;
   padding: 10px;
@@ -60,7 +60,7 @@
 }
 
 .form form #name:focus, .form form #email:focus, .form form #message:focus {
-  width: 52%;
+  width: 99%;
 }
 
 .form form #btn {
