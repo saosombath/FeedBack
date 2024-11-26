@@ -55,6 +55,6 @@ const scrollRevealOption = {
     });
   });
 
-$(".overdue").each( function() {
+$("#btn").click( function() {
     alert("សូមបញ្ជេញមតិនិងការស្នើរសុំប្រកបដោយសិលធមន៍់់់់");
 });
