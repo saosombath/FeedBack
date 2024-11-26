@@ -31,3 +31,17 @@ var sender = function () {
     document.getElementById("message").value = "";
     return false;
 };
+const scrollRevealOption = {
+    origin: "bottom",
+    distance: "10px",
+    duration: 1000,
+  };
+  
+  ScrollReveal().reveal("img", {
+    ...scrollRevealOption,
+    origin: "bottom",
+  });
+  ScrollReveal().reveal(".text-white", {
+    ...scrollRevealOption,
+    delay: 500,
+  });
