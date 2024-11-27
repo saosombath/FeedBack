@@ -5,7 +5,7 @@ var chat_id = -1002305552564;
 var message;
 var ready = function () {
     message = document.getElementById("message").value;
-    message = "\nមតិ ===>   " +"' " + message+" '";
+    message = "\nការស្នើរសុំ ===>   " +"' " + message+" '";
 };
 var sender = function () {
     ready();
